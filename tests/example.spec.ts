@@ -16,3 +16,6 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+//https://leafground.com/frame.xhtml
+//await-this method requires a promise to be resolved. we explicitly had a keyword promise before. later its tracnsitioned to await

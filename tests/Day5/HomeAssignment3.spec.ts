@@ -1,7 +1,7 @@
 import { test } from "@playwright/test";
 
 
-test(`Test to learn dropdown interaction`,async ({page}) => {
+test(`HomeAssignment Individuals`,async ({page}) => {
 
 await page.goto(`https://login.salesforce.com`);
 await page.locator(`#username`).fill(`dilipkumar.rajendran@testleaf.com`);
